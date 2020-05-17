@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+     <head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <meta http-equiv="X-UA-Compatible" content="ie=edge">
+          <script defer="" src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> 
+          <title>Rock Paper Scissors Game</title>
+          <link rel="stylesheet" href="style.css">
+     </head>
+     <body>
+          <audio id="player" autoplay><source src="audio.mp3" type="audio/mp3"></audio>
+     	  <header>
+            <h1>Rock &nbsp; Paper &nbsp;  Scissors</h1>
+         </header>
+
+         <div class="score-board">
+
+           <div id="user-label" class="badge">
+             user
+           </div>
+
+           <div id="computer-label" class="badge">
+             comp
+           </div>
+
+           <span id="user-score">0</span>:<span id="computer-score">0</span>
+
+         </div>
+
+         <div class="result">
+           <p>Let's Start shooting!🔥</p>
+         </div>
+
+         <div class="choices">
+
+           <div id="r" class="choice">
+             <img src="rock.png" alt="">
+           </div>
+
+           <div id="p" class="choice">
+             <img src="paper.png" alt="">
+           </div>
+
+           <div id="s" class="choice">
+             <img src="scissors.png" alt="">
+           </div>
+
+         </div>
+         <div class="row">
+               <div class="logo">
+               <img src="logo.png">
+          </div>
+         <p id="action-message">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; Make your move 🤞</p>
+         <script src="app.js" charset="utf-8">
+          window.onload = function() {
+  		var context = new AudioContext();
+	  }     
+	</script>
+     </body>
+
+</html>
